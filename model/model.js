@@ -98,3 +98,5 @@ class Store {
     localStorage.setItem('books', JSON.stringify(books));
   }
 }
+
+module.exports = {Store, Book, UI}
