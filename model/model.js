@@ -99,4 +99,4 @@ class Store {
   }
 }
 
-module.exports = {Store, Book, UI}
+export = {Store, Book, UI};
