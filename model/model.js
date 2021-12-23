@@ -99,4 +99,4 @@ class Store {
   }
 }
 
-export = {Store, Book, UI};
+export {Store, Book, UI};
