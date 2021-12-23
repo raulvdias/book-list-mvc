@@ -1,4 +1,4 @@
-const {Book, UI, Store} = require("./model/model.js");
+import {Book, UI, Store} from "./model/model.js";
 
 //DOM load event
 document.addEventListener('DOMContentLoaded', Store.displayBooks);
