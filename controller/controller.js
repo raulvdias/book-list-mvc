@@ -1,3 +1,5 @@
+const {Book, UI, Store} = require("./model/model.js");
+
 //DOM load event
 document.addEventListener('DOMContentLoaded', Store.displayBooks);
 
