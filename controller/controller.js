@@ -1,4 +1,4 @@
-import {Book, UI, Store} from "./model/model.js";
+import {Store, Book, UI} from '../model/model.js';
 
 //DOM load event
 document.addEventListener('DOMContentLoaded', Store.displayBooks);
@@ -53,3 +53,4 @@ document.getElementById('book-list').addEventListener('click', function (e) {
 
   e.preventDefault();
 });
+
